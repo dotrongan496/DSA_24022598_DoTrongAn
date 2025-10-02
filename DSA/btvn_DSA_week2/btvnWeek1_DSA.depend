@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1758815538 source:d:\cpp\btvnweek1_dsa\main.cpp
+	<bits/stdc++.h>
+	"List.h"
+	"LinkedList.h"
+
+1758816068 d:\cpp\btvnweek1_dsa\list.h
+	<iostream>
+
+1758816068 d:\cpp\btvnweek1_dsa\linkedlist.h
+	<iostream>
+
+1759411466 source:d:\cpp\dsa\btvn_dsa_week2\main.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
+1759411761 d:\cpp\dsa\btvn_dsa_week2\stack.h
+	"List.h"
+	"LinkedList.h"
+
+1759410374 d:\cpp\dsa\btvn_dsa_week2\list.h
+	<iostream>
+
+1759410407 d:\cpp\dsa\btvn_dsa_week2\linkedlist.h
+	<iostream>
+
