@@ -11,7 +11,7 @@ public:
 
     //O(1)
     bool isEmpty(){
-        return arr.coutn == 0;
+        return arr.count == 0;
     }
 
     //O(1)
@@ -26,66 +26,66 @@ public:
             return -1;
         }
         else {
-            int temp = arr.access_List(arr.coutn);
+            int temp = arr.accessList(arr.count);
             arr.deleteLast();
             return temp;
         }
     }
     //O(1)
     int size() {
-        return (arr.coutn + 1);
+        return (arr.count + 1);
     }
     //O(1)
     int top(){
-        return arr.access_List(arr.coutn);
+        return arr.accessList(arr.count);
     }
 
 
 };
 
 
-class Stack_LinkedList {
+class StackLinkedList {
 public:
-    LinkedList link_arr;
+    LinkedList linkarr;
     //O(1)
     bool isEmpty() {
-        if(link_arr.count == 0) {
+        if(linkarr.count == 0) {
             return true;
         }
         return false;
     }
     //O(1)
     void push(int item) {
-        link_arr.addFirst(item);
+        linkarr.addFirst(item);
     }
 
     //O(n)
     int pop() {
-        if (link_arr.count == 0) {
+        if (linkarr.count == 0) {
             cout << "danh sach rong \n";
             return -1;
         }
-        int temp = link_arr.access_LinkedList(link_arr.count -1);
-        link_arr.deleteLast();
+        int temp = linkarr.accessLinkedList(linkarr.count -1);
+        linkarr.deleteLast();
         return temp;
     }
 
     //o(1)
     int size(){
-        return link_arr.count;
+        return linkarr.count;
     }
 
     //O(n)
     int top(){
-        if (link_arr.count ==0) {
+        if (linkarr.count ==0) {
             cout << "danh sach rong \n";
             return -1;
         }
-        return link_arr.access_LinkedList(0);
+        return linkarr.accessLinkedList(0);
     }
     //O(n)
     void print(){
-        link_arr.print();
+        linkarr.print();
     }
 
 

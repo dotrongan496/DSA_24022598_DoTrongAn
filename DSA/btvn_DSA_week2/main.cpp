@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main() {
-    Stack_LinkedList st;
+    StackLinkedList st;
     st.push(10);
     st.push(20);
     st.push(30);

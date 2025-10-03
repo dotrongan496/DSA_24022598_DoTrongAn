@@ -19,7 +19,7 @@ public:
     }
 
     // Truy cập phần tử O(n)
-    int access_LinkedList(int index) {
+    int accessLinkedList(int index) {
         if (index < 0 || index >= count)
             return -1;
         Node* temp = head;
