@@ -59,14 +59,14 @@ public:
         linkarr.addFirst(item);
     }
 
-    //O(n)
+    //O(1)
     int pop() {
         if (linkarr.count == 0) {
             cout << "danh sach rong \n";
             return -1;
         }
         int temp = linkarr.accessLinkedList(linkarr.count -1);
-        linkarr.deleteLast();
+        linkarr.deleteFirst();
         return temp;
     }
 
