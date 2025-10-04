@@ -9,7 +9,7 @@ public:
 
     //O(1)
     bool isEmpty(){
-        return (arr.coutn == 0);
+        return (arr.count == 0);
     }
     //O(n)
     void push(int item) {
@@ -17,7 +17,7 @@ public:
     }
     //O(1)
     int layra() {
-        if (arr.coutn == 0) {
+        if (arr.count == 0) {
             cout << "Hang doi rong \n";
             return 0;
         }
@@ -86,3 +86,4 @@ public:
 };
 
 #endif // QUEUE_H
+
