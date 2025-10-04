@@ -65,7 +65,7 @@ public:
             cout << "danh sach rong \n";
             return -1;
         }
-        int temp = linkarr.accessLinkedList(0);
+        int temp = linkarr.accessLinkedList(linkarr.count -1);
         linkarr.deleteFirst();
         return temp;
     }
@@ -92,4 +92,3 @@ public:
 };
 
 #endif
-

@@ -28,14 +28,14 @@ public:
 
     //O(1)
     int top(){
-        if (arr.coutn == 0)
+        if (arr.count == 0)
             return -1;
-        return arr.access_List(arr.coutn);
+        return arr.access_List(arr.count);
     }
 
     //O(1)
     int size(){
-        return arr.coutn + 1;
+        return arr.count + 1;
     }
 
     //O(n)
@@ -46,11 +46,11 @@ public:
 };
 
 
-class queue_Linked_List{
+class queue_LinkedList{
 public:
     LinkedList link_arr;
     //O(1)
-    bool isEmty(){
+    bool isEmpty(){
         return link_arr.count == 0;
     }
     //O(1)
@@ -63,14 +63,14 @@ public:
             cout << "Hang doi rong \n";
             return -1;
         }
-        int temp = link_arr.access_LinkedList(link_arr.count -1);
+        int temp = link_arr.accessLinkedList(link_arr.count -1);
         link_arr.deleteLast();
         return temp;
     }
 
     //O(1)
     int top(){
-        return link_arr.access_LinkedList(count - 1);
+        return link_arr.accessLinkedList(link_arr.count - 1);
     }
 
     //O(1)
@@ -86,4 +86,3 @@ public:
 };
 
 #endif // QUEUE_H
-
