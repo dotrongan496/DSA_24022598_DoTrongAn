@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1760081136 source:d:\cpp\dsa\btvn_dsa_week3\week3\main.cpp
+	<bits/stdc++.h>
+	"priorityqueue.h"
+	"MaxHeap.h"
+
+1760057514 d:\cpp\dsa\btvn_dsa_week3\week3\priorityqueue.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<stdexcept>
+
+1760082213 d:\cpp\dsa\btvn_dsa_week3\week3\maxheap.h
+	<bits/stdc++.h>
+
